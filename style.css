@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.midwidth{
+    overflow: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner-section img{
+    animation-name: img-b;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: relative;
+    animation-fill-mode: initial;
+} 
+
+@keyframes img-b{
+    0%{
+        top: 0;
+    }
+
+    50%{
+        top: 70px;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+.banner-section{
+    background: linear-gradient(#1abc9c 48%, #3498db);
+    height: 400px;
+    color: #f9f9f9;
+}
+
+.ooo-1{
+    background: linear-gradient(#9b59b6 48%, #f1c40f);
+    height: 400px;
+    color: #f9f9f9;
+}
+
+.banner-section a{
+    background: linear-gradient(to left, #2ecc71, #9b59b6);
+    color: #fff;
+    transition: 1s;
+}
+
+.banner-section a:hover{
+    background: linear-gradient(#9b59b6, #2ecc71);
+    color: #ffff;
+}
+
+.banner-content{
+    position: relative;
+    top: 91px;
+}
+
+header a{
+    color: #fff !important;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+/* Buble */
+
+.bubles{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0;
+}
+
+.bubles img:nth-child(1){
+    animation-delay: 5s;
+}
+
+.bubles img:nth-child(2){
+    animation-delay: 20s;
+}
+
+.bubles img:nth-child(3){
+    animation-delay: 30s;
+}
+
+.bubles img:nth-child(4){
+    animation-delay: 40s;
+}
+
+.bubles img:nth-child(5){
+    animation-delay: 50s;
+}
+
+.bubles img:nth-child(6){
+    animation-delay: 60s;
+}
+
+.bubles img:nth-child(7){
+    animation-delay: 70s;
+}
+
+.bubles img:nth-child(8){
+    animation-delay: 80s;
+}
+
+.bubles img:nth-child(9){
+    animation-delay: 90s;
+}
+
+.bubles img:nth-child(10){
+    animation-delay: 100s;
+}
+
+.bubles img:nth-child(11){
+    animation-delay: 150s;
+}
+
+.bubles img:nth-child(12){
+    animation-delay: 260s;
+}
+
+.bubles img:nth-child(13){
+    animation-delay: 290s;
+}
+
+.bubles img:nth-child(14){
+    animation-delay: 350s;
+}
+
+.bubles img{
+    width: 30px;
+    animation-name: bubles;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes bubles{
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    75%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-200vh);
+    }
+
+}
